@@ -8,6 +8,9 @@ Once you have .NET Core 6 installed, you can clone this repository to your local
 Repo URL : https://github.com/anasalwekhyan/CarInformation.git
  
 Usage
-To use this project, you will need to run it from the command line or use visual studio. Navigate to the root directory of the project and run the following command:
+To use this project, you will need to run it from the command line or use visual studio 2022. Navigate to the root directory of the project and run the following command:
 dotnet run
+
+Test 
+You can test the API to retrieve car models by using Postman or any browser. The URL for retrieving car models is Ex : http://localhost:5088/api/Vehicles/GetModels?modelYear=2022&make=honda
 
